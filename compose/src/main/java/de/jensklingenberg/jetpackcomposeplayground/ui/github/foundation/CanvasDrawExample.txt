@@ -22,7 +22,7 @@ fun CanvasDrawExample() {
             Rect(
                 0f,
                 centerY + 10,
-                size.width.value,
+                size.width,
                 55f
             ),
             paint

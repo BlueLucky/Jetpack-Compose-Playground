@@ -3,8 +3,7 @@ package de.jensklingenberg.jetpackcomposeplayground
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.ui.demos.DemoActivity
-
+import de.jensklingenberg.jetpackcomposeplayground.ui.MyComposeActivity
 
 
 class MainActivity : AppCompatActivity() {
@@ -13,8 +12,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
 
-        startActivity(Intent(this, DemoActivity::class.java))
-     //   startActivity(Intent(this, MyComposeActivity::class.java))
+     //   startActivity(Intent(this, DemoActivity::class.java))
+        startActivity(Intent(this, MyComposeActivity::class.java))
 
     }
 
