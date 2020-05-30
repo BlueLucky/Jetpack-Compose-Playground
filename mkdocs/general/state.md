@@ -1,7 +1,7 @@
 # Compose State
 
 ## Define a state
-### 1) state function
+### state function
 val textState = state{"Hello"}
 
 You can use the state function to create a state. state{T} will return a MutableState`<T>`

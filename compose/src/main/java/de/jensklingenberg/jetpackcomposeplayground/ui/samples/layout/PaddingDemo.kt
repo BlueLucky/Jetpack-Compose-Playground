@@ -2,6 +2,7 @@ package de.jensklingenberg.jetpackcomposeplayground.ui.samples.layout
 
 import androidx.compose.Composable
 import androidx.ui.core.Modifier
+import androidx.ui.foundation.Clickable
 import androidx.ui.foundation.Text
 import androidx.ui.layout.Column
 import androidx.ui.layout.padding
@@ -26,3 +27,4 @@ fun PaddingDemo() {
     }
 
 }
+
